@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  sammo_examples_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
