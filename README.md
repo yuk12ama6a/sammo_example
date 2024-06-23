@@ -1,2 +1,2 @@
-# sammo_example
+# sammo_examples
 Examples of SAMMO
