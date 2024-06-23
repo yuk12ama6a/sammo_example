@@ -1,0 +1,16 @@
+{
+  "name": "SAMMO examples dev container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "sammo_examples_app",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
